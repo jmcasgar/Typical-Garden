@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./../../CSS/gardening.css">
+  <link rel="stylesheet" href="./../../CSS/navbar.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <!-- navbar01 -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid border-bottom ">
+          <div class=" navbar-collapse navbar-expand-sm">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="./../general_sections/offers.html">offer</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./../general_sections/trackorder.html">track order</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./../general_sections/rewards.html">REWARD</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">ORDER</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./../helpcenter.html">HELP AND SUPPORT</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">SUGGESTION</a>
+                  </li>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!-- navbar02 -->
+  <nav class="navbar navbar-expand-lg bg-light  border-bottom sticky-top  ">
+      <div class="container-fluid m-2 ">
+          <a class="navbar-brand" href="#"><img src="./../../images/indeximages/bloomingbuds.png" alt="bloomingbuds logo"
+                  height="50" style="border-radius: 10px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="bi bi-chevron-double-down"></i>
+          </button>
+
+          <div class="collapse navbar-collapse m-2 " id="navbarSupportedContent">
+              <form class="d-flex  " role="search">
+                  <button class="btn btn-outline-danger  dropdown-toggle me-3 " type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Categories</button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="pots.html">Pots</a></li>
+                    <li><a class="dropdown-item" href="bulbs.html">bulbs</a></li>
+                    <li><a class="dropdown-item" href="seeds.html">Seeds</a></li>
+                    <li><a class="dropdown-item" href="gardening.html">Gardening</a></li>
+                    <li><a class="dropdown-item" href="Accessories.html">Accessories</a></li>
+                    <li><a class="dropdown-item" href="pebbels.html">Pebbles</a></li>
+                    <li><a class="dropdown-item" href="plants.html">Plants</a></li>
+                    <li><a class="dropdown-item" href="fertilizers.html">Soil and Fertilizers</a></li>
+                  </ul>
+                  <input class="form-control ms-auto  " type="text" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-danger " type="submit">Search</button>
+              </form>
+              <div class="nav-item d-flex ms-5  ">
+                  <div class="nav-hover d-flex mt-2 ">
+                      <i class="bi bi-chat-left fs-3 me-2 "> </i>
+                      <h6>Expert support<br>Available 24/7</h6>
+                  </div>
+                  <div class="ms-5 nav-hover mt-2 ">
+                      <i class="bi bi-person fs-4 p-2   fst-normal"><a href="./../general_sections/signup.html" class="text-decoration-none text-dark">login</a></i>
+                  </div>
+                  <div class="ms-5 nav-hover mt-2 ">
+                      <i class="bi bi-cart2  fs-3  ms-2 fst-normal">CART</i>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+  
+
+    <div class="container-fluid">
+        <div class="row  head1">
+            <div class="col-md-1 m-4 col-4 head  ">
+              <a href=""><img src="./../../images/Pages-images/seeds1.avif" class="rounded-pill head-img "></a>
+              <h1 class="text-center ms-3 fw-bolder">Trending in Seeds</h1>
+            </div>
+            <div class="col-md-1 m-4 col-4 head ">
+              <a href=""> <img src="./../../images/Pages-images/seeds2.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds by Features</h1>
+            </div>
+            <div class="col-md-1 m-4 col-4 head">
+              <a href=""><img src="./../../images/Pages-images/seeds3.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds's Packs</h1>
+            </div>
+            <div class="col-md-1 m-4 col-4 head">
+              <a href=""><img src="./../../images/Pages-images/seeds4.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds and Kits</h1>
+            </div>
+            <div class="col-md-1 m-4 col-4 head">
+              <a href=""> <img src="./../../images/Pages-images/seeds5.avif" class="rounded-pill head-img"> </a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds by location</h1>
+            </div>
+            <div class="col-md-1 m-4 col-4 head">
+              <a href=""> <img src="./../../images/Pages-images/seeds6.avif" class="rounded-pill head-img"> </a>
+              <h1 class="text-center ms-4 fw-bolder">Packs by Ocassaion</h1>
+            </div>
+            <div class="col-md-1 m-4 col-4 head">
+              <a href=""> <img src="./../../images/Pages-images/seeds7.avif" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Packs by Season</h1>
+            </div>
+            <div class="col-md-1 m-4 col-4 head">
+              <a href=""> <img src="./../../images/Pages-images/seeds8.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds by Season</h1>
+            </div>
+
+
+    <div class="row row1">
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <img src="./../../images/Pages-images/seeds16.webp">
+          <div class="card-body">
+            <s>&#8377;2297</s>
+            <p class="text-danger fs-3">&#8377;1895</p>
+            <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+            Set of 3 Flowering Plant for Beautiful Garden
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <img src="./../../images/Pages-images/seeds9.webp">
+          <div class="card-body">
+            <s>&#8377;2297</s>
+            <p class="text-danger fs-3">&#8377;1895</p>
+            <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+            Set of 3 Flowering Plant for Beautiful Garden
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <img src="./../../images/Pages-images/seeds14.webp">
+          <div class="card-body">
+            <s>&#8377;2297</s>
+            <p class="text-danger fs-3">&#8377;1895</p>
+            <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+            Set of 3 Flowering Plant for Beautiful Garden
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <img src="./../../images/Pages-images/seeds13.webp">
+          <div class="card-body">
+            <s>&#8377;2297</s>
+            <p class="text-danger fs-3">&#8377;1895</p>
+            <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+            Set of 3 Flowering Plant for Beautiful Garden
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <img src="./../../images/Pages-images/seeds12.webp">
+          <div class="card-body">
+            <s>&#8377;2297</s>
+            <p class="text-danger fs-3">&#8377;1895</p>
+            <p class="text-danger mb-4">⚡ Extra 40% Off on Checkout </p>
+            Set of 3 Flowering Plant for Beautiful Garden
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">210 reviews</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds11.webp">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds10.webp">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds9.webp">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds8.webp">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds7.avif">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds6.avif">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds5.avif">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds4.webp">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds3.webp">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds2.webp">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <div class="col-md-3 col-12 my-4">
+      <div class="card">
+        <img src="./../../images/Pages-images/seeds1.avif">
+        <div class="card-body">
+          <s>&#8377;2297</s>
+          <p class="text-danger fs-3">&#8377;1895</p>
+          <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+          Set of 3 Flowering Plant for Beautiful Garden
+          <p class="text-warning"><i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i> <span class="text-dark">190views</span>
+          </p>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+              cart</button>
+            <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    </div>
+
+
+    </div>
+
+    
+<br>
+
+    <h1 class="heading text-center1" >F&Qs</h1>
+    <br>
+    <div id="faq-container">
+      <div class="faq">
+        <div class="question">1. Q: How do I choose the right plants for my garden?</div>
+        <div class="answer">A: Select plants based on your climate, sunlight availability, soil type, and preferred aesthetic. Our website offers filters to help you find suitable plants.</div>
+      </div>
+  
+      <div class="faq">
+        <div class="question">2. Q: When is the best time to plant different types of flowers?</div>
+        <div class="answer">A: Planting times vary by species and climate. Check the product descriptions for recommended planting seasons or consult our gardening guides for specific guidance</div>
+      </div>
+  
+      <div class="faq">
+        <div class="question">3. Q: How often should I water my plants?</div>
+        <div class="answer">A: Watering frequency depends on the plant type and weather conditions. Generally, aim for deep, infrequent watering to encourage root growth. Consult individual plant care instructions for specifics.</div>
+      </div>
+    
+        <div class="faq">
+          <div class="question">4. Q: What are some natural ways to control pests in my garden?</div>
+          <div class="answer">A: Introduce beneficial insects, use companion planting, neem oil, soap sprays, or diatomaceous earth. Our blog has detailed articles on organic pest control methods.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">5. Q: Can I grow plants indoors?</div>
+          <div class="answer">A: Absolutely! Many plants thrive indoors. Look for plants labeled as "indoor" or "houseplants" and provide them with suitable light, humidity, and care.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">6. Q: What should I do if my plant's leaves are turning yellow?</div>
+          <div class="answer">A: Yellowing leaves can indicate various issues such as overwatering, nutrient deficiencies, or pests. Review our plant care guides for troubleshooting tips or contact our experts for personalized advice.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">7. Q: How do I create a successful container garden?</div>
+          <div class="answer">A: Choose appropriate containers, use well-draining soil, select plants that suit the container's size and sunlight exposure, and ensure proper watering and fertilization.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">8. Q: What's the difference between annuals and perennials?</div>
+          <div class="answer">A: Annuals complete their life cycle in one growing season, while perennials return year after year. We offer a variety of both options to suit your garden's needs.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">9. Q: How can I improve the quality of my soil?</div>
+          <div class="answer">A: Amend your soil with compost, organic matter, and soil conditioners to enhance its texture, drainage, and nutrient content. Regular soil testing can also provide valuable insights.</div>
+        </div>
+        <div class="faq">
+          <div class="question">10. Q: Do you offer any gardening workshops or tutorials?</div>
+          <div class="answer">A: Yes, we periodically host gardening workshops and provide online tutorials on various topics. Check our events page and blog for updates on upcoming workshops and informative articles.</div>
+        </div>
+    
+        <button class="show-answers-btn" onclick="toggleAnswers()">Show Answers</button>
+      
+  
+    </div>
+
+
+    <footer class=" pb-4">
+      <div class="container-fluid text-center text-md-left border-top">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <img src="./../../images/indeximages/Blooming Buds.png" class=" mb-4" style="height: 250px;">
+            <p class="text-dark text-lg-start" style="font-size: 15px;">At our Gym, we are dedicated to helping
+              you achieve your fitness goals and lead a healthy lifestyle. Our mission is to provide you with
+              personalized guidance tailored to your specific health needs, ensuring you get the most out of your
+              workout sessions and nutrition plans.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 col-6">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-success">Products</h5>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">The Providers</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">Creativity</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">SourceFiles</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">Bootstrap 5 alpha</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 col-6">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-success">Useful links</h5>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">Your Account</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">Become an Affiliates</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none;">Help</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contact</h5>
+            <p class="text-dark">
+              <i class="bi bi-house-door-fill"></i>New York,NY 2333, US
+            </p>
+            <p class="text-dark">
+              <i class="bi bi-envelope-fill m-2"></i> theprovider98@gmail.com
+            <p class="text-dark">
+              <i class="bi bi-telephone-fill m-2"></i>+91 3874138292
+            </p>
+            <p class="text-dark">
+              <i class="bi bi-printer-fill m-2"></i>+01 323 543 34
+            </p>
+          </div>
+        </div>
+        <hr class="mb-4 text-white">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-dark"> Copyright @2023 All rights reserved by:
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-success">The Providers</strong>
+              </a>
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                      class="bi bi-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                      class="bi bi-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"> <i
+                      class="bi bi-google"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                      class="bi bi-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                      class="bi bi-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    
+    <!-- end -->
+  </div>
+
+     <script>
+        const faqs = document.querySelectorAll('.faq');
+    
+        faqs.forEach(faq => {
+          faq.addEventListener('click', () => {
+            faq.classList.toggle('active');
+          });
+        });
+
+        function toggleAnswers() {
+      const showAnswersBtn = document.querySelector('.show-answers-btn');
+      const areAllActive = Array.from(faqs).every(faq => faq.classList.contains('active'));
+
+      if (areAllActive) {
+        faqs.forEach(faq => {
+          faq.classList.remove('active');
+        });
+        showAnswersBtn.textContent = 'Show Answers';
+      } else {
+        faqs.forEach(faq => {
+          faq.classList.add('active');
+        });
+        showAnswersBtn.textContent = 'Hide Answers';
+      }
+    }
+      </script>
+    
+  
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+</html>

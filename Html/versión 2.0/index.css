@@ -1,0 +1,439 @@
+/* CSS para las imágenes de encabezado */
+.head-img {
+    height: 120px;
+}
+
+/* Estilo de hover para los elementos del encabezado */
+.head:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: transform 1s, opacity 1s;
+}
+
+
+
+
+.galery {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.slider-item {
+    flex: 0 0 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    scroll-snap-align: start;
+}
+
+
+/* Estilo base para las tarjetas */
+.card-img {
+    opacity: 0.7;
+}
+
+.card {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.card img {
+    height: 240px;
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.card-body {
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Estilo para elementos con línea a través (strikethrough) */
+.card-body s {
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+/* Estilo para texto destacado en rojo (text-danger) */
+.card-body .text-danger {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilo para texto de descuento adicional con margen inferior */
+.card-body .text-danger.mb-4 {
+    font-size: 1rem;
+}
+
+/* Estilo para párrafos dentro de la tarjeta */
+.card-body p {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+/* Estilo para texto con advertencia (text-warning) y estrellas */
+.card-body .text-warning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+/* Estilo para los botones dentro de las tarjetas */
+.card-button {
+    background-color: #be9b52;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo de hover para los botones */
+.card-button:hover {
+    background-color: #a48142;
+}
+
+.btn {
+    background-color: #be9b52;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Efecto hover para el botón */
+.btn:hover {
+    background-color: #CC6666;
+}
+
+.popular-text {
+    top: 40;
+}
+
+.popular-img {
+    height: 600px;
+}
+
+.popularimg1 {
+    height: 380px;
+}
+
+.popularimg2 {
+    height: 224px;
+    width: 320px;
+}
+
+.popularimg3 {
+    height: 350px;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.radius:hover {
+    border-color: black;
+}
+
+.body-light,
+.body-dark {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos para el modo claro */
+.body-light {
+    background-color: #333;
+    /* Fondo oscuro */
+    color: #F3E5AB;
+    /* Texto claro */
+
+}
+
+/* Estilos para el modo oscuro */
+.body-dark {
+    background-color: #fff;
+    /* Fondo claro */
+    color: #000;
+    /* Texto oscuro */
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    /* Ajusta la posición según tu preferencia */
+    right: 20px;
+    /* Ajusta la posición según tu preferencia */
+    z-index: 999;
+    /* Asegura que esté sobre otros elementos */
+}
+
+.whatsapp-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    /* Color de fondo de WhatsApp */
+    color: #fff;
+    width: 50px;
+    /* Ancho del botón */
+    height: 50px;
+    /* Alto del botón */
+    border-radius: 50%;
+    /* Forma circular */
+    text-decoration: none;
+    font-size: 24px;
+    /* Tamaño del ícono */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    transition: background-color 0.3s;
+}
+
+.whatsapp-link a:hover {
+    background-color: #128c7e;
+    /* Color de fondo cuando se pasa el mouse */
+}
+
+
+
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /* Cambié margin-right a margin-bottom para mejorar la alineación */
+    border-radius: 5px;
+    font-size: 1rem;
+    display: block;
+    /* Agregado para ocupar todo el ancho disponible */
+    text-align: center;
+    /* Centrar el texto horizontalmente */
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+
+.body-dark .textcolor {
+    color: white;
+}
+
+/* Estilo para la sección "Populares" */
+.popular-img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.popular-img:hover {
+    transform: scale(1.05);
+}
+
+.popular-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.popularimg1,
+.popularimg3,
+.popular-img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.popularimg1:hover,
+.popularimg3:hover {
+    transform: scale(1.05);
+}
+
+
+/* Estilo del contenedor principal */
+.col-md-6 {
+    display: flex;
+    /* Establece el contenedor como un contenedor flexible */
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    min-height: 600px;
+    /* Aumenta la altura mínima para hacer el mapa más grande */
+}
+
+/* Estilo del contenedor del mapa */
+.map-container {
+    border: 1px solid #ccc;
+    /* Borde alrededor del mapa */
+    border-radius: 5px;
+    /* Bordes redondeados para suavizar el contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Sombra más pronunciada para destacar el contenedor */
+    width: 80%;
+    /* Ajusta el ancho del contenedor según tus necesidades */
+    max-width: 800px;
+    /* Establece un ancho máximo para evitar que sea excesivamente grande */
+    min-height: 500px;
+    /* Establece una altura mínima para hacer el mapa más grande */
+    display: flex;
+    /* Establece el contenedor como un contenedor flexible */
+    flex-direction: column;
+    /* Alinea el contenido verticalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    padding: 20px;
+    /* Espaciado interno para el contenido del mapa */
+    transition: box-shadow 0.3s;
+    /* Agrega una animación de sombra al pasar el mouse */
+}
+
+/* Estilo del título del mapa */
+.map-title {
+    background-color: #333;
+    /* Fondo oscuro para el título */
+    color: #fff;
+    /* Texto blanco */
+    padding: 10px;
+    /* Espaciado interno para el título */
+    margin: 0;
+    /* Elimina el margen superior e inferior del título */
+    border-top-left-radius: 5px;
+    /* Redondea la esquina superior izquierda */
+    border-top-right-radius: 5px;
+    /* Redondea la esquina superior derecha */
+}
+
+/* Estilo del contenedor del mapa */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    /* Ajusta la altura mínima según tus necesidades */
+}
+
+/* Estilo del iframe del mapa */
+.map-iframe {
+    border: none;
+    width: 100%;
+    min-height: 600px;
+    /* Ajusta la altura mínima según tus necesidades */
+}
+
+/* Estilo cuando el mouse se coloca sobre el contenedor del mapa */
+.map-container:hover {
+    transform: scale(1.05);
+    /* Escala ligeramente el mapa al pasar el mouse */
+    transition: transform 0.3s ease;
+    /* Agrega una transición suave */
+}
+
+
+/* Estilo del título del mapa */
+.map-title {
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+/* Estilo para el footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer img {
+    max-height: 250px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    color: #333;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #28a745;
+}
+
+footer .list-inline-item a {
+    font-size: 23px;
+    margin: 0 10px;
+}
+
+/* Estilo para el ícono de la casa en la dirección */
+footer .bi-house-door-fill {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Estilo para el ícono del teléfono en la dirección */
+footer .bi-telephone-fill {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .popular-img {
+        height: 210px;
+    }
+
+    .popularimg1 {
+        height: 270px;
+    }
+
+    .popularimg2 {
+        height: 240px;
+        width: 320px;
+    }
+
+    .popularimg3 {
+        height: 250px;
+    }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./../../CSS/navbar.css">
+</head>
+<style>
+    body{
+        background-image: url(".././images/cover1.png.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+       opacity: .8;
+        
+    }
+    .container {
+
+        font-size: 25px;
+    }
+
+
+    .info {
+        text-align: center;
+    }
+
+    .box {
+        height: 50%;
+        font-size: 15px;
+    }
+
+    .font {
+       
+        padding: 8px;
+        width: 40%;
+    }
+
+    .text{
+        font-size: 18px;
+    }
+    @media(max-width:500px){
+        .btn{
+            width: 30%;
+        }
+    }
+</style>
+
+<body>
+     <!-- SECCIÓN DE BARRA DE NAVEGACIÓN -->
+    <!-- Navbar 01 -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid border-bottom ">
+            <div class=" navbar-collapse navbar-expand-sm">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./../general_sections/offers.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class "nav-link" href="./../general_sections/trackorder.html">Seguir Pedido</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class "nav-link" href="./../general_sections/rewards.html">Recompensas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class "nav-link" href="#">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class "nav-link" href="./../helpcenter.html">Ayuda y Soporte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class "nav-link" href="#">Sugerencias</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar 02 -->
+    <nav class="navbar navbar-expand-lg bg-light  border-bottom sticky-top  ">
+        <div class="container-fluid m-2 ">
+            <a class "navbar-brand" href="#"><img src="./../../images/indeximages/bloomingbuds.png" alt="logotipo de bloomingbuds"
+                    height="50" style="border-radius: 10px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Alternar navegación">
+                <i class="bi bi-chevron-double-down"></i>
+            </button>
+
+            <div class="collapse navbar-collapse m-2 " id="navbarSupportedContent">
+                <form class="d-flex  " role="search">
+                    <button class="btn btn-outline-danger  dropdown-toggle me-3 " type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Categorías</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./../category_pages/pots.html">Macetas</a></li>
+                      <li><a class="dropdown-item" href="./../category_pages/bulbs.html">Bombillas</a></li>
+                      <li><a class="dropdown-item" href="./../category_pages/seeds.html">Semillas</a></li>
+                      <li><a class="dropdown-item" href="./../category_pages/gardening.html">Jardinería</a></li>
+                      <li><a class="dropdown-item" href="./../category_pages/Accessories.html">Accesorios</a></li>
+                      <li><a class="dropdown-item" href="./../category_pages/pebbels.html">Piedras Decorativas</a></li>
+                      <li><a class="dropdown-item" href="./../category_pages/plants.html">Plantas</a></li>
+                      <li><a class="dropdown-item" href="./../category_pages/fertilizers.html">Suelo y Fertilizantes</a></li>
+                    </ul>
+                    <input class="form-control ms-auto  " type="text" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-danger " type="submit">Buscar</button>
+                </form>
+                <div class="nav-item d-flex ms-5  ">
+                    <div class="nav-hover d-flex mt-2 ">
+                        <i class="bi bi-chat-left fs-3 me-2 "> </i>
+                        <h6>Soporte experto<br>Disponible 24/7</h6>
+                    </div>
+                    <div class="ms-5 nav-hover mt-2 ">
+                        <i class="bi bi-person fs-4 p-2   fst-normal"><a href="./signup.html" class="text-decoration-none text-dark">Iniciar sesión</a></i>
+                    </div>
+                    <div class="ms-5 nav-hover mt-2 ">
+                        <i class="bi bi-cart2  fs-3  ms-2 fst-normal">CARRITO</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="info">
+            <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gracias</h1>
+            <p>Si eres un usuario registrado,<br>
+                <a href="./login.html" style="text-decoration: none;">haz clic aquí</a> para ver el estado del pedido.
+                <br>o<br>
+                Si eres un usuario invitado,<br>
+                por favor, introduce el ID del pedido o el número de seguimiento.
+            </p>
+            <h2>Rastrea tu pedido</h2>
+            <form>
+                <input type="text" placeholder="Introduce el ID del pedido o el número de seguimiento" id="input address" class="font ">
+            </form>
+            <button class="btn btn-success">Rastrear</button>
+            <p class="text">*Generalmente, se tarda 7 días laborables en enviar el pedido.<br>
+                Consejo para usuarios invitados: Para ver los detalles completos del pedido y el historial, por favor <a href="./login.html" style="color: white ;text-decoration: none;">crea
+                </a>tu cuenta.</p>
+        </div>
+    </div>
+    
+      <!-- SECCIÓN DE PIE DE PÁGINA -->
+      <footer class="pb-4">
+        <div class="container-fluid text-center text-md-left border-top bg-light">
+          <div class="row text-center text-md-left bg-light">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+              <img src="./../../images/indeximages/Blooming Buds.png" class="" style="height: 250px;">
+              <p class="text-dark text-lg-start" style="font-size: 15px;">¿Eres un entusiasta de las plantas que busca convertir
+                tu hogar en un vibrante oasis de belleza natural? No busques más que Blooming Buds, tu destino principal para todo lo relacionado con lo verde y floreciente.
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 col-6">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-success">Productos</h5>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Los Proveedores</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Creatividad</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Archivos Fuente</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Bootstrap 5 alpha</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5 col-6">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-success">Enlaces Útiles</h5>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Tu Cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Conviértete en Afiliado</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Tarifas de Envío</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration: none;">Ayuda</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-5">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contacto</h5>
+              <p class="text-dark">
+                <i class="bi bi-house-door-fill"></i>Nueva York, NY 2333, EE. UU.
+              </p>
+              <p class="text-dark">
+                <i class="bi bi-envelope-fill m-2"></i> theprovider98@gmail.com
+              <p class="text-dark">
+                <i class="bi bi-telephone-fill m-2"></i>+91 3874138292
+              </p>
+              <p class="text-dark">
+                <i class="bi bi-printer-fill m-2"></i>+01 323 543 34
+              </p>
+            </div>
+          </div>
+          <hr class="mb-4 text-white">
+          <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+              <p class="text-dark"> Derechos de autor © 2023 Todos los derechos reservados por:
+                <a href="#" style="text-decoration: none;">
+                  <strong class="text-success">Typical Garden</strong>
+                </a>
+              </p>
+            </div>
+            <div class="col-md-5 col-lg-4 " >
+              <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                        class="bi bi-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                        class="bi bi-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"> <i
+                        class="bi bi-google"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                        class="bi bi-linkedin"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-dark" style="font-size: 23px;"><i
+                        class="bi bi-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- FIN DE LA SECCIÓN DE PIE DE PÁGINA -->
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+crossorigin="anonymous"></script>
+
+</html>
