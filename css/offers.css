@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.car{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-top: 92px;
+}
+.lead{
+    color: red;
+    text-align: center;
+}
+#size{
+    font-size: 90px;
+    font-weight: bold;
+}
+#fix{
+    color:  #00cc00;;
+    font-weight: bold;
+    font-size: 60px;
+}
+.fake-container{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/close-up-hands-gardening_23-2149098333.jpg?size=626&ext=jpg&ga=GA1.2.150023710.1687535014&semt=sph');
+    background-attachment: fixed;
+}
+.sec-left{
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #206020;
+}
+.sec-right{
+    margin-left: 200px;
+    font-size: 25px;
+    margin-top: 60px;
+    color: #66cc66;
+}
+.content-card{
+    display: flex;
+}
+.index-btn{
+    height: 60px;
+    width: 300px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.index-btn:hover{
+    background-color: #ff5c33;
+    transition: 0.5s;
+}
+.display-images{
+    display: flex;
+    margin-left: 30px;
+}
+  
+#fix-img{
+    height: 280px;
+}  
+#inline{
+    display: flex;
+}
+.card{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    /* justify-content: space-between; */
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+.card:hover .button{
+    display: block;
+}
+
+.card-button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s,color 0.3s;
+    }
+    .card:hover .button{
+        display: block;
+    }
+  
+#fix-img{
+    height: 280px;
+}    
+.tracking{
+    height: 250px;
+    margin-left: 300px;
+}
+.cupon-card{
+    height: 80px;
+    border:#206020 2px dotted ;
+    width: 600px;
+    background-color: #d9f2d9;
+    margin-left: 100px;
+}
+.move{
+    margin-left: 120px;
+    font-weight: bold;
+}
+span{
+    font-size: 20px;
+    color: #206020;
+    font-weight: bold
+}
+.move-2{
+    margin-left: 200px;
+}
+.align{
+    height: 400px;
+    width: 345px;
+    border-radius: 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.category-card{
+    display: flex;
+}
+.end-card{
+    height: 300px;
+    width: 100%;
+    background-color:  #d9f2d9;
+}
+#logos{
+    height: 80px;
+}
+.place{
+    margin-left: 150px;
+}
+.news{
+    height: 60px; 
+}
+.news:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+.news{
+    height: 60px; 
+}
+.news:hover{
+    scale: 1.1;
+    transition: 1s;
+}

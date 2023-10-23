@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 13.5px;
+    color: red;
+   
+}
+.text-center1{
+  text-align: center;
+  font-size: 35px;
+  color: red;
+ 
+}
+.head-img{
+    height: 132px;
+    width: 132px;
+} 
+.head:hover{
+    transform: scale(1.1);
+    opacity: 1.5;
+    transition: 1s;
+}
+.card-img{
+    opacity: 0.7;
+}
+
+.card{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.card img{
+    height: 240px;
+}
+.button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    /* justify-content: space-between; */
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+
+.card-button{
+width: 100%;
+height: 40px;
+cursor: pointer;
+transition: background-color 0.3s,color 0.3s;
+}
+.card:hover .button{
+display: block;
+}
+.popular-text{
+top: 40;
+}
+.news{
+height: 60px; 
+}
+.news:hover{
+scale: 1.1;
+transition: 1s;
+}
+
+#faq-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .faq {
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .faq:hover {
+    background-color:transparent;
+  }
+
+  .question {
+    font-size: 23px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(240, 234, 240);
+  }
+
+  .answer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b0a0a;
+    text-shadow: 2px 2px rgb(236, 230, 236);
+    display: none;
+    margin-top: 10px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s, opacity 0.3s;
+  }
+
+  .faq.active .answer {
+    display: block;
+    max-height: 1000px;
+      opacity: 1;
+      transition: max-height 0.3s, opacity 0.5s;
+  }
+  .show-answers-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .show-answers-btn:hover {
+    background-color: #0056b3;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .question {
+      font-size: 16px;
+    }
+  }
+
+@media(max-width:500px){
+.popular-img{
+    height: 20px;
+}
+}

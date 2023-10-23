@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 10px;
+}
+#main{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.shift{
+    margin-top: 80px;
+}
+.img-right{
+    height: 500px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+}
+.shop-btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.shop-btn:hover{
+    cursor: pointer;
+    background-color: #ff6666;
+    transition: 0.5s;
+}
+#comp{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+.category-card{
+    display: flex;
+}
+.align{
+    height: 400px;
+    width: 345px;
+    border-radius: 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.cupon-card{
+    height: 80px;
+    border:#206020 2px dotted ;
+    width: 600px;
+    background-color: #d9f2d9;
+    margin-left: 100px;
+}
+.move{
+    margin-left: 120px;
+    font-weight: bold;
+}
+#inline{
+    display: flex;
+}
+.move-2{
+    margin-left: 200px;
+} 
+#fix-img{
+    height: 280px;
+}  
+.card-img{
+    opacity: 40px;
+}
+.image{
+    height: 400px;
+    margin-left: 100px;
+}
+button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+   button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   .fake-container{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/close-up-hands-gardening_23-2149098333.jpg?size=626&ext=jpg&ga=GA1.2.150023710.1687535014&semt=sph');
+    background-attachment: fixed;
+}
+.index-btn{
+    height: 60px;
+    width: 300px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.index-btn:hover{
+    background-color: #ff5c33;
+    transition: 0.5s;
+}
+.news{
+    height: 60px; 
+}
+.news:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+.news{
+    height: 60px; 
+}
+.news:hover{
+    scale: 1.1;
+    transition: 1s;
+}

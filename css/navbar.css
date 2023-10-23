@@ -1,0 +1,6 @@
+.nav-hover:hover{
+    padding: 3px;
+    background-color:#ff6b6b;
+    transition: 0.9s;
+    border-radius:20px;
+}
